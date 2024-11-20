@@ -15,7 +15,7 @@ accordionBtns.forEach((accordion) => {
   accordion.onclick = function () {
     this.classList.toggle("is-open");
 
-    /* FIX #1: Since I wrapped each button with an h2 tag, using this.nextElementSibling does not get the accordian panel (div)
+    /* FIX #1: Since I wrapped each button with an h2 tag, using this.nextElementSibling does not get the accordion panel (div)
     so, the new code gets the closest h2 element to the button (which is the h2 element wrapping it), and then it gets
     the nextElementSibling, which is the appropriate panel.*/
     // let content = this.nextElementSibling;
