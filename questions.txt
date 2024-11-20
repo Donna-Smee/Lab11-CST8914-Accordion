@@ -1,0 +1,11 @@
+1. What is the keyboard interaction missing
+    The key board interaction is missing the ability for users to see the focusable element.
+    This means that although the accordian headers are focusable and are part of the tab sequence, 
+    users cannot see where the focus is. This unfortunately may cause some confusion with how to interact using the keyboard.
+
+
+2. What is the ARIA missing
+    The accordion header button is missing the aria-expanded = "true/false".
+    The accordion header button is missing the aria-controls="ID".
+    The accordian panel (div region) is missing the aria-labelledby="IDREF".
+    The accordian panel is missing the "role" attribute.
